@@ -1,0 +1,20 @@
+{
+
+  "autoload": {
+    "files": [
+      "includes/api/class-paps-api.php"
+    ]
+  },
+  "require": {
+    "paps-app/paps-php-client": "^0.1.1"
+  },
+  "archive": {
+        "exclude": [
+            "/tests",
+            "/docs",
+            "*.md",
+            ".gitignore",
+            ".distignore"
+        ]
+    }
+}
